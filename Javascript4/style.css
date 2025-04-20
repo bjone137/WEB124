@@ -1,0 +1,79 @@
+/* Brady Jones 04/20/2025 */
+body {
+    margin: 0;
+    background-color: #202020;
+    color: #c0c0c0;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+}
+
+a:link {
+    color: #CCCCFF;
+}
+
+a:visited {
+    color: #CCCCFF;
+}
+
+a:hover {
+    color: #9999DD;
+}
+
+.highlight {
+    transition: all 0.2s;
+    border-bottom: 2px solid #000000;
+    position: absolute;
+    top: 0;
+    background: #000000;
+    left: 0;
+    z-index: -1;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#description {
+    position: absolute;
+    width: 280px;
+    height: 230px;
+    background: rgba(32, 32, 32, 0);
+    color: rgba(192, 192, 192, 0);
+    border: 5px solid rgba(64, 64, 64, 0);
+    padding: 5px;
+    border-radius: 10px;
+    transition: background 0.5s, color 0.5s, border 0.5s;
+    transition-timing-function: ease-out;
+    z-index: -1;
+}
+
+#background {
+    position: absolute;
+    background-color: #2a2a2a;
+    width: 840px;
+    z-index: -2;
+}
+
+#description p {
+    margin: 0;
+}
+
+#description img {
+    float: right;
+    margin: 0 0 5px 5px;
+}
